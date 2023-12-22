@@ -30,6 +30,16 @@ return {
       enabledWhen = 'photosAvailable',
     },
     {
+      title = 'Score images',
+      file = 'ScoreImages.lua',
+      enabledWhen = 'photosAvailable',
+    },
+    {
+      title = 'Find blurry',
+      file = 'FindBlurry.lua',
+      enabledWhen = 'photosAvailable',
+    },
+    {
       title = 'Compare on pregenerated imgsum database',
       file = 'ImportImgsumDatabase.lua',
     },
